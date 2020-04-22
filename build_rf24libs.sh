@@ -68,7 +68,7 @@ git show --oneline -s
 echo "===> Activate failure handling ....."
 sed -i '/#define FAILURE_HANDLING/s/^\s.\/\///g' RF24_config.h && cat RF24_config.h | grep FAILURE
 echo "===> Building..."
-./configure --driver=SPIDEV --header-dir="../include/RF24" 
+./configure --header-dir="../include/RF24" 
 make
 #sudo make install
 printf "\nlibrf24.a: \$(OBJECTS)\n\tar -rcs ../librf24.a $^ \n\n" >> Makefile
