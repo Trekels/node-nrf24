@@ -2,7 +2,7 @@
 RF24GIT=https://github.com/tmrh20
 ALTGIT=https://github.com/ludiazv
 
-RF24_VERSION="v1.3.2"
+RF24_VERSION="v1.3.4"
 RF24N_VERSION="v1.0.9"
 RF24M_VERSION="v1.0.7"
 RF24G_VERSION="TODO"
